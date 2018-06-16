@@ -50,5 +50,4 @@ def echo_message(message):
 if __name__ == '__main__':
     app.run(host=config.listen,
             port=config.port,
-            ssl_context=config.ssl,
             debug=True)
